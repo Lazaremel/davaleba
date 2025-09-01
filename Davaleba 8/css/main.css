@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Asimovian";
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.conteiner {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.logo {
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.cover {
+    background-image: url(../img/22.jpg);
+    padding: 60px 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    padding: 80px;
+    height: 50vh;
+    z-index: 10;
+}
+
+.cover h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    font-size: 60px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(36, 36, 36, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.content {
+    background-color: rgb(0, 0, 0);
+    height: max-content;
+    width: 100%;
+
+}
+
+.cart {
+    max-width: 800px;
+    margin: auto;
+    height: 50vh;
+
+}
+
+.cart h1 {
+    font-size: 40px;
+    color: white;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.cart p {
+    font-size: 19px;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+
+}

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    position: relative;
+    /* animation: BoxMove 3s infinite; */
+}
+
+
+/* animation */
+
+@keyframes BoxMove {
+    0% {
+        left: 0;
+        top: 0;
+
+    }
+
+    25% {
+        left: 50px;
+        top: 0;
+    }
+
+    50% {
+
+        left: 50px;
+        top: 50px;
+    }
+
+    75% {
+
+        background-color: red;
+        left: 0;
+        top: 50px;
+    }
+
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+
+
+
+.spiner {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 40px dotted black;
+    animation: rotate 2s infinite linear;
+
+}
+
+@keyframes rotate {
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.triali {
+    font-size: 200px;
+    color: red;
+    animation: triali 3s infinite ease-in-out;
+
+}
+
+@keyframes triali {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+/* section */
+
+.img-bg {
+    background-image: url(./img/11.jpg);
+    padding: 60px 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    padding: 80px;
+    height: 50vh;
+
+}
+
+.contener {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contener h2{
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.bg {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 10px;
+    
+}
+
+.bg h1{
+     margin-bottom: 30px;
+}
+
+.bg p{
+     margin-bottom: 30px;
+}
