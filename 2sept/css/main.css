@@ -1,0 +1,24 @@
+.conteiner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+@media screen and (min-width:1024px) {
+    .cal-50 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .row {
+        flex-direction: column;
+    }
+
+}
