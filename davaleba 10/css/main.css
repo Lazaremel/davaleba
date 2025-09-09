@@ -23,7 +23,8 @@ body {
 }
 
 .jc-se {
-    justify-content: space-evenly;
+    justify-content: center;
+    gap:150px;
 }
 
 .m-50 {
