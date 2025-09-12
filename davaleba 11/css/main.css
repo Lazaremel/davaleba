@@ -9,13 +9,14 @@ html,body{
     display:flex;
     align-items:center;
     justify-content:center;
+    background-color: yellow;
   }
 
 
 .blok1{
     width: 600px;
     height: 100px;
-    background-color: yellow;
+    background-color: gray;
     justify-items: center;
     padding: 40px;
     border-radius: 10px 10px 0 0;
@@ -25,6 +26,7 @@ html,body{
     width: 600px;
     height: 100px;
     background-color: antiquewhite;
+    border-radius: 5px;
    
 }
 
@@ -32,7 +34,7 @@ html,body{
   display: grid;
   gap: 20px 20px;
   grid-template-columns: auto auto auto auto;
-  background-color: yellow;
+  background-color: rgb(187, 186, 186);
   padding: 20px;
 }
 
