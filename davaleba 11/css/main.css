@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+html,body{
+    height:100%;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+
+.blok1{
+    width: 600px;
+    height: 100px;
+    background-color: yellow;
+    justify-items: center;
+    padding: 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.blokin{
+    width: 600px;
+    height: 100px;
+    background-color: antiquewhite;
+   
+}
+
+.blokin2 {
+  display: grid;
+  gap: 20px 20px;
+  grid-template-columns: auto auto auto auto;
+  background-color: yellow;
+  padding: 20px;
+}
+
+.blokin2 > div {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.itemtoloba {
+  grid-row: 4 / span 2;
+  grid-column: 4/ span 1;
+}
+
+.itemonoli{
+    grid-column: 1 /span 2;
+}
+.colortoloba{
+      background-color: rgb(226, 147, 1);
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colortoloba:hover{
+      background-color: rgba(226, 147, 1, 0.623);
+  
+}
+.tol{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.colormuqi{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 4px;
+}
+
+.colormuqi:hover{
+     background-color: rgb(126, 126, 126);
+}
+.colorgia{
+   background-color: rgb(141, 141, 141);
+    color: white;
+    border-radius: 4px;  
+}
+
+.colorgia:hover{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 4px;  
+}
